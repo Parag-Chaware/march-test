@@ -1,0 +1,79 @@
+* {
+  padding: 0px;
+  margin: 0px;  
+}
+body {
+  background-color: black;
+  color:#FFFFFF;
+  font-family: "Poppins", sans-serif;
+}
+#formContainer {
+  margin: 20px;
+}
+#Heading {
+  margin-left: 10px;
+  font-weight:300;
+  Size:24px;
+  Line-height:29.05px;
+}
+
+#form {
+  display: flex;
+}
+.form-inputs {
+  background-color: black;
+  color: #FFFFFF;
+  margin: 10px;
+  font-size: 14px;
+  font-weight: 200px;
+}
+input {
+  margin-top: 10px;
+  padding-left: 7px;
+  background-color: black;
+  color: #FFFFFF;
+  Width: 300px;
+  Height:30px;
+  border-radius: 5px;
+  Border:1px solid white;
+}
+button {
+  margin:10px;
+  margin-top: 13px;
+  width: 120px ;
+  height:35px;
+  
+}
+#added-emp {
+ margin: 10px;
+ font-size: 17px;
+ font-weight: 200px;
+}
+#total-emp {
+ margin: 10px;
+ font-weight: 50px;
+ opacity: 0.5;
+}
+#error{
+  margin-left: 10px;
+  color: red;
+  font-weight:50px ;
+}
+#success {
+  margin-left: 10px;
+  color: green;
+}
+#employeeList {
+  width: 550px;
+  height: 59px;
+  border-radius: 10px;
+  margin: 10px;
+  padding-left: 7px;
+  font-size: 13px;
+  font-weight: 10px;
+}
+.deleteBtn {
+  width: 145px;
+  height: 40px;
+  border-radius: 20px;
+}
